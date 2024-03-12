@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif; /* Ensure readability */
+    background-color: #F7F6BB; /* Light background color */
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: "Arial", sans-serif; /* Font family */
+    font-size: 2.5em; /* Large font size */
+    color: #007bff; /* Cybersecurity blue color */
+    text-align: center; /* Center alignment */
+    margin: 20px 0; /* Margin space */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Increased letter spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for depth */
+}
+
+
+
+#container {
+    width: 90%; /* Adjust as needed */
+    margin: 0 auto; /* Center the content */
+    background-color: #F7F6BB; /* White container background */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+header {
+    background: hsla(160, 59%, 16%, 1);
+
+    background: linear-gradient(90deg, hsla(160, 59%, 16%, 1) 83%, hsla(203, 69%, 84%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(160, 59%, 16%, 1) 83%, hsla(203, 69%, 84%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(160, 59%, 16%, 1) 83%, hsla(203, 69%, 84%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#114232", endColorstr="#B9DCF2", GradientType=1 );
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em; /* Large heading */
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #87A922; /* Dark text color */
+}
+
+article {
+    padding: 20px 0;
+}
+
+h2 {
+    color: #007bff; /* Cybersecurity blue for headings */
+}
+
+p {
+    line-height: 1.6; /* Improved readability */
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #333; /* Dark footer background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+    
