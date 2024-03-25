@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Split Div</title>
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 40em; /* adjust width as needed */
+    height: 40em; /* adjust height as needed */
+    overflow: hidden;
+    border-radius: 0.5em;
+    transition: all 0.5s ease; /* transition for changing proportions */
+  }
+
+  .image {
+    flex: 3; /* initially occupy 3/4 of the container height */
+    background-image: url('https://www.tapetus.pl/obrazki/n/255060_slodki-piesek-szczeniaczek.jpg'); /* replace 'your-image-url.jpg' with the actual image URL */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .text {
+    flex: 1; /* initially occupy 1/4 of the container height */
+    padding: 10px;
+    background-color: lightblue; /* adjust background color as needed */
+    text-align: justify;
+    transition: all 0.3s ease; /* transition for changing proportions */
+  }
+
+  .container:hover .image {
+    flex: 2; /* on hover, change image height to occupy 1/2 of the container */
+  }
+
+  .container:hover .text {
+    flex: 2; /* on hover, change text height to occupy 1/2 of the container */
+    font-size: 30px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="image"></div>
+  <div class="text">
+    <p>To jest pimpek jakich mało, przypatrz mu się uważnie bo cie zje, nom nom nom</p> <!-- Add your text here -->
+  </div>
+</div>
+
+</body>
+</html>
